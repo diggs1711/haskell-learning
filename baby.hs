@@ -1,3 +1,13 @@
+{-
+To run:
+ 	go to folder of file
+	type ghci
+	:set prompt "ghci> "
+	:l baby
+-}
+
+--chapter 1 
+
 doubleMe x = x + x
 
 doubleUs x y = doubleMe x + doubleMe y
@@ -12,26 +22,15 @@ length' xs = sum [ 1| _ <- xs]
 
 removeNonUppercase st = [c | c <- st, c `elem` ['A'..'Z']]
 
--- Chapter 2 - Types and Typeclasses --
-addThree :: Int -> Int -> Int -> Int
-addThree x y z = x + y + z
 
-factorial :: Integer -> Integer
-factorial n = product [1..n]
 
-circumference :: Float -> Float
-circumference r = 2 * pi * r
+-- fromIntegral (length [1,2,3,4]) + 3.2
 
-circumference' :: Double -> Double
-circumference' r = 2 * pi * r
 
-{-
-To run:
- 	go to folder of file
-	type ghci
-	:set prompt "ghci> "
-	:l baby
--}
+
+
+
+
 
 
 
