@@ -7,5 +7,4 @@ To run:
  	go to folder of file  
 	type ghci  
 	:set prompt "ghci> "  
-	:l baby  
--}  
+	:l baby   
