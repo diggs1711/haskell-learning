@@ -9,5 +9,5 @@
         type ghci 
 
         :set prompt "ghci> "  
-        :l baby   
+        :l NAME.hs   
 ````
